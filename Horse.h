@@ -6,8 +6,8 @@ private:
     int position;
     int number;
 public:
-    Horse(int num);  // Constructor with the number of the horse
-    Horse();  // Default constructor (needed for array creation)
+    Horse(int num);  
+    Horse(); 
 
     void advance();
     void printLane(int raceLen) const;
