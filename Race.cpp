@@ -1,8 +1,8 @@
 #include "Race.h"
 #include <iostream>
 #include <cstdlib>
-#include <ctime>
-#include <unistd.h>  
+#include <ctime> 
+
 
 const int raceLen = 20;  
 

@@ -2,7 +2,8 @@
 #include <iostream>
 
 Horse::Horse(int num) : position(0), number(num) {}
-Horse::Horse() : number(0), position(0) {}
+Horse::Horse() : position(0), number(0) {}
+
 
 void Horse::advance() {
     if (rand() % 2 == 1) {
